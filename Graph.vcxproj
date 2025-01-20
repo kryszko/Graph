@@ -128,11 +128,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="other_functions.cpp" />
     <ClCompile Include="pliki.cpp" />
     <ClCompile Include="graf.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="other_functions.h" />
     <ClInclude Include="pliki.h" />
     <ClInclude Include="graf.h" />
     <ClInclude Include="main.h" />
