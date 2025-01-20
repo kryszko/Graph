@@ -2,6 +2,7 @@
 #include <string>
 
 #include "other_functions.h"
+#include "structures.h"
 
 int main(int ile, char * params[])
 {
@@ -14,7 +15,9 @@ int main(int ile, char * params[])
     {
         //// działa
         graph numbers = read_numbers(input_file_name);
-        //coloring(numbers);
+        //graph read_numbers(const std::string & input_file_name)
+        
+            //coloring(numbers);
         //write_colors(output_file_name);
     }
     else

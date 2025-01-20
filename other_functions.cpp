@@ -2,6 +2,7 @@
 #include <iostream>
 
 #include "other_functions.h"
+#include "structures.h"
 
 std::pair<std::string, std::string> check_params(int ile, char* params[])
 {
@@ -15,6 +16,18 @@ std::pair<std::string, std::string> check_params(int ile, char* params[])
 
 	return {};
 }
+
+
+
+//przerobiæ na plik niedoskona³y
+graph read_numbers(const std::string& input_file_name)
+{
+	graph readed;
+
+	return readed;
+}
+
+
 
 void help(char* params[])
 {
