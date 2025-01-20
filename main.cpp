@@ -6,12 +6,17 @@
 #include "files.h"
 #include "graph_mod.h"
 
-int main(int ile, char * params[])
+int main()
 {
     // poprawność parametrów
-    auto [input_file_name, output_file_name] = check_params(ile, params);
 
-    std::pair<std::string, std::string> check_params(int ile, char* params[]);
+
+    //auto [input_file_name, output_file_name] = check_params(ile, params);
+
+   //std::pair<std::string, std::string> check_params(int ile, char* params[]);
+
+    std::string input_file_name = "/datas/dane.txt";
+    std::string output_file_name = "/datas/wynik.txt";
 
     if (not input_file_name.empty() and not output_file_name.empty())
     {
@@ -31,7 +36,7 @@ int main(int ile, char * params[])
     }
     else
     {
-        help(params);
+        //help(params);
     }
 
     return 0;
