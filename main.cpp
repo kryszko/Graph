@@ -4,6 +4,7 @@
 #include "other_functions.h"
 #include "structures.h"
 #include "files.h"
+#include "graph_mod.h"
 
 int main(int ile, char * params[])
 {
@@ -18,11 +19,15 @@ int main(int ile, char * params[])
         graph numbers = read_numbers(input_file_name);
         //graph read_numbers(const std::string & input_file_name)
         
-        write(numbers);
-        void write(const graph & g);
+        
+        //void write(const graph & g);
 
-        //coloring(numbers);
+        coloring(numbers);
+        //void coloring(graph & g);
         //write_colors(output_file_name);
+
+        write(numbers);
+
     }
     else
     {

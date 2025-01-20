@@ -18,7 +18,7 @@
     <ClCompile Include="main.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="graf.cpp">
+    <ClCompile Include="graph_mod.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
     <ClCompile Include="files.cpp">
@@ -35,7 +35,7 @@
     <ClInclude Include="structures.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="graf.h">
+    <ClInclude Include="graph_mod.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
     <ClInclude Include="files.h">
