@@ -3,6 +3,7 @@
 
 #include "other_functions.h"
 #include "structures.h"
+#include "files.h"
 
 int main(int ile, char * params[])
 {

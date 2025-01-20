@@ -21,7 +21,7 @@
     <ClCompile Include="graf.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="pliki.cpp">
+    <ClCompile Include="files.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
     <ClCompile Include="other_functions.cpp">
@@ -38,7 +38,7 @@
     <ClInclude Include="graf.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="pliki.h">
+    <ClInclude Include="files.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
     <ClInclude Include="other_functions.h">
