@@ -18,7 +18,10 @@ int main(int ile, char * params[])
         graph numbers = read_numbers(input_file_name);
         //graph read_numbers(const std::string & input_file_name)
         
-            //coloring(numbers);
+        write(numbers);
+        void write(const graph & g);
+
+        //coloring(numbers);
         //write_colors(output_file_name);
     }
     else
