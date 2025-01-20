@@ -13,7 +13,7 @@ int main(int ile, char * params[])
     if (not input_file_name.empty() and not output_file_name.empty())
     {
         //// działa
-        //graf numbers = read_numbers(input_file_name);
+        graph numbers = read_numbers(input_file_name);
         //coloring(numbers);
         //write_colors(output_file_name);
     }

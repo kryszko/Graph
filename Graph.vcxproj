@@ -138,7 +138,7 @@
     <ClInclude Include="pliki.h" />
     <ClInclude Include="graf.h" />
     <ClInclude Include="main.h" />
-    <ClInclude Include="struktury.h" />
+    <ClInclude Include="structures.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
