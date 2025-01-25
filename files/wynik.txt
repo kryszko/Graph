@@ -1,0 +1,3 @@
+The graph is bipartite
+Group 1: 0 3 5 
+Group 2: 1 2 

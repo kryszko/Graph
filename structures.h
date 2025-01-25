@@ -6,13 +6,13 @@
 
 struct graph
 {
-    struct node
+    struct nodes
     {
         unsigned int color = 0;
         std::vector<std::string> neighbor;
     };
 
-    std::unordered_map<std::string, node> node;
+    std::unordered_map<std::string, nodes> nodes;
 
-    unsigned int liczba_kolorow = 0;
+    unsigned int color_amount = 0;
 };
