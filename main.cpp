@@ -45,10 +45,19 @@ int main(int argc, char* argv[])
     //test plików
     std::ifstream i_file(input_file_name);
     std::ifstream o_file(output_file_name);
-    if (!i_file or !o_file) 
+    if (!i_file) 
     {
-        std::cout << "File error!";
+        std::cout << "input File error!";
         return 1;
+    }
+    else if (!o_file)
+    {
+        std::ofstream new_file(output_file_name); //tworzenie pliku wyjścia gdy go nie ma
+        if (!new_file)
+        {
+            std::cout << "output File error!";
+            return 1;
+        }
     }
     i_file.close();
     o_file.close();
