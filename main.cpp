@@ -21,13 +21,11 @@ int main(int argc, char* argv[])
 {
     std::string input_file_name, output_file_name;
 
-
     //sprawdzanie parametrów wejściowych
     if (argc != 5) {
         print_help();
         return 1;
     }
-
     for (int i = 1; i < argc; i += 2) {
         if (std::string(argv[i]) == "-i") 
         {
@@ -47,13 +45,11 @@ int main(int argc, char* argv[])
     //test plików
     std::ifstream i_file(input_file_name);
     std::ifstream o_file(output_file_name);
-    
     if (!i_file or !o_file) 
     {
         std::cout << "File error!";
         return 1;
     }
-
     i_file.close();
     o_file.close();
 
@@ -61,11 +57,14 @@ int main(int argc, char* argv[])
     //wczytanie z pliku do grafu
     graph graph_string = read_numbers(input_file_name);
     
+
     //kolorowanie grafu, dzielenie na grupy
     coloring(graph_string);
 
+
     //zapisywanie wyników
     write_results(graph_string, output_file_name);
+
 
     std::cout << "Done :)";
 
